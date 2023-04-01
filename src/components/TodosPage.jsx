@@ -1,8 +1,15 @@
 import React from 'react'
+import { Row, Col, Container } from 'react-bootstrap'
 
 const TodosPage = () => {
     return (
-        <div>할일목록</div>
+        <Container>
+            <Row>
+                <Col className='text-center'>
+                    <h1>할일목록</h1>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 
